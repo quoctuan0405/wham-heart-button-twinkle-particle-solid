@@ -48,11 +48,11 @@ export const HeartButton: VoidComponent = () => {
   };
 
   createEffect(function periodicallyCleanParticles(intervalId?: number) {
-    if (isDrawing()) {
-      if (intervalId) {
-        clearInterval(intervalId);
-      }
+    if (intervalId) {
+      clearInterval(intervalId);
+    }
 
+    if (isDrawing()) {
       return window.setInterval(() => {
         particles = particles.filter(
           (particle) => performance.now() - particle.createdAt < cleanupTime,
