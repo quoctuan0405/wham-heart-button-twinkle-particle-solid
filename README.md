@@ -2,7 +2,7 @@
 
 ![Demo](public/twinkle-particle-heart-button.gif)
 
-You can play with it [here](https://wham-heart-button-twinkle-particle.vercel.app/).
+You can play with it [here](https://wham-heart-button-twinkle-particle-two.vercel.app/).
 
 This is my original canvas based implementation of this animation. After spending quite a bit of time tinkering with the animation, I decided to share it here in case it saves someone else some time.
 
